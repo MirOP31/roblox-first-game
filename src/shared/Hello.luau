@@ -1,7 +1,3 @@
-local Hello = {}
-
-function Hello.saludar(nombre: string)
-	return string.format("¡Hola %s! Sistema sincronizado con Rojo y Git.", nombre)
+return function()
+	print("Hello, world!")
 end
-
-return Hello

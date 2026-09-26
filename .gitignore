@@ -1,0 +1,21 @@
+# Archivos de Roblox Studio (el mapa/build binario se gestiona por separado o en Studio)
+*.rbxl
+*.rbxlx
+*.rbxmx
+
+# Archivos de configuración de editores y sistema
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.vs/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Paquetes y dependencias externas (si luego usan Wally o Aftman)
+/Packages/
+/ServerPackages/
+/_Index/
+.aftman/
+.rokit/
